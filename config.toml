@@ -1,0 +1,77 @@
+baseurl = "https://www.golazy.com/"
+DefaultContentLanguage = "zh_cn"
+title = "懒三天"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "以前很懒，但是身处的环境都太忙碌，也只好就懒三天。"
+  logo = "img/lazy.jpg"
+  favicon = "img/lazy_favicon.ico"
+  dateFormat = "2018-09-09"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Lazy Gene"
+  website = "https//www.golazy.com"
+  email = "694518870@qq.com"
+  github = "genglj"
+
+[[menu.main]]
+    name = "博客"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "关于"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "topic"
+    name = "专题"
+    weight = 2
+
+[[menu.main]]
+    parent = "topic"
+    name = "入门系列"
+    url = "page/newbee"
+    weight = 1
+
+[[menu.main]]
+    parent = "topic"
+    name = "跟随开源"
+    url = "page/followopen"
+    weight = 2
+
+[[menu.main]]
+    name = "标签"
+    url = "tags"
+    weight = 3

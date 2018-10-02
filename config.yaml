@@ -1,0 +1,21 @@
+baseURL: https://www.golazy.com/
+languageCode: en
+params: 
+  AuthorName: 懒三天
+  GitHubUser: genglj
+  SidebarRecentLimit: 5
+  Subtitle: 以前很懒，但是身处的环境都太忙碌，也只好就懒三天。
+title: 懒三天
+theme: beautifulhugo
+menu:
+  - main:
+      name: About
+      url: /post/about/
+      weight: 1
+staticman:
+    api: https://api.staticman.net/v2/entry/<USERNAME>/<REPOSITORY-BLOGNAME>/master/comments
+    pulls: https://github.com/<USERNAME>/<REPOSITORY-BLOGNAME>/pulls
+    recaptcha:
+      sitekey: "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+      secret: "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
+
