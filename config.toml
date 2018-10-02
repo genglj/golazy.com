@@ -1,4 +1,4 @@
-baseurl = "https://www.golazy.com/"
+baseurl = "http://www.golazy.top/"
 DefaultContentLanguage = "zh_cn"
 title = "懒三天"
 theme = "beautifulhugo"
