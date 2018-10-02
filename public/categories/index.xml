@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 懒三天</title>
+    <link>https://www.golazy.com/categories/</link>
+    <description>Recent content in Categories on 懒三天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>694518870@qq.com (Lazy Gene)</managingEditor>
+    <webMaster>694518870@qq.com (Lazy Gene)</webMaster>
+    
+	<atom:link href="https://www.golazy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
