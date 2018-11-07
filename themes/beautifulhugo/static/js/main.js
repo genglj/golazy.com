@@ -64,6 +64,9 @@ var main = {
 
     // show the big header image
     main.initImgs();
+
+    // 屏幕适配
+    // main.adapterScreen();
   },
 
   initImgs : function() {
@@ -116,7 +119,13 @@ var main = {
     }
     }
   },
-
+  adapterScreen : function() {
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+        $("body").css("font-size","3.0em");
+        $(".navbar-custom .nav li a").css("font-size","0.6em");
+        $(".navbar-custom .avatar-container").css({"width":"4.25em","margin-top":"-2.125em"});
+    }
+  },
   getImgInfo : function() {
     var randNum = Math.floor((Math.random() * main.numImgs) + 1);
     var src = main.bigImgEl.attr("data-img-src-" + randNum);

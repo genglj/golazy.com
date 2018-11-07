@@ -1,4 +1,4 @@
-baseurl = "http://www.golazy.top/"
+baseurl = "https://ljgeng.gitee.io/golazy.com/"
 DefaultContentLanguage = "zh_cn"
 title = "懒三天"
 theme = "beautifulhugo"
